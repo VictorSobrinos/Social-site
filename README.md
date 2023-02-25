@@ -1,4 +1,4 @@
-# SchoolProject
+<!--# SchoolProject
 
 Website where persons can create puzzles and codes for others to find
 
@@ -24,4 +24,4 @@ Website where persons can create puzzles and codes for others to find
 | `/api/testGame/:gameId`           | PUT       | List of all students           |
 | `/api/testGame/delete/:gameId`    | POST       | List of all students          |
 
-# Social-site
+# Social-site-->
