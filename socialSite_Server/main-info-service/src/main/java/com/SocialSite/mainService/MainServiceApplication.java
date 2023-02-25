@@ -16,20 +16,20 @@ public class MainServiceApplication {
     public static void main(String[] args) {
         SpringApplication.run(MainServiceApplication.class, args);
     }
-    @Bean
-    PasswordEncoder passwordEncoder() {
-        return new BCryptPasswordEncoder();
-    }
+//    @Bean
+//    PasswordEncoder passwordEncoder() {
+//        return new BCryptPasswordEncoder();
+//    }
 
-    @Bean
-    public WebMvcConfigurer corsConfigurer(){
-        return new WebMvcConfigurer() {
-            @Override
-            public void addCorsMappings(CorsRegistry registry){
-                registry.addMapping("/**").allowedMethods("*").allowedOrigins("*");
-            }
-        };
-    }
+//    @Bean
+//    public WebMvcConfigurer corsConfigurer(){
+//        return new WebMvcConfigurer() {
+//            @Override
+//            public void addCorsMappings(CorsRegistry registry){
+//                registry.addMapping("/**").allowedMethods("*").allowedOrigins("*");
+//            }
+//        };
+//    }
 //    @Bean
 //    CommandLineRunner run(StudentRepository studentRepository) {
 //        return args -> {
