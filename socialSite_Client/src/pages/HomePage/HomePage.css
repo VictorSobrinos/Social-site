@@ -1,0 +1,146 @@
+.homeCluster {
+    font-size: 3em;
+    letter-spacing: 3px;
+    color: white;
+    position: relative;
+}
+
+.logoCluster img {
+    width: 100px;
+    margin-left: 50px;
+    transition: 0.5s;
+}
+
+.logoCluster img:hover {
+    width: 130px;
+}
+
+.logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 1%;
+    margin-left: 1%;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 2px;
+    z-index: 1;
+}
+
+.logoCluster {
+    position: fixed;
+    display: flex;
+    margin-top: 18%;
+    margin-right: 55px;
+}
+
+.motto {
+    margin-bottom: 25%;
+    font-size: 2.5em;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.video-wrapper .homeSpan {
+    border: 1px solid white;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 5%;
+    margin-left: 19.5%;
+    transition: 0.5s;
+}
+
+.homeSpan:hover {
+    background-color: black;
+    color: white;
+}
+
+.introVideo {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.video-wrapper {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.signUp {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-top: 1%;
+    margin-right: 1%;
+
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 2px;
+
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.signUp:hover {
+    border-radius: 5px;
+    font-size: 1.2em;
+    background-color: black;
+    color: white;
+}
+
+.signIn {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-top: 1%;
+    margin-right: 10%;
+
+    padding: 15px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 2px;
+
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.signIn:hover {
+    border-radius: 5px;
+    font-size: 1.2em;
+    background-color: black;
+    border-color: white;
+    color: white;
+}
+
+.kataRushLogo {
+    width: 100px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    transition: 0.5s;
+}
+
+.kataRushLogo:hover {
+    width: 150px;
+}

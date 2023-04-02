@@ -1,0 +1,30 @@
+.Timer {
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+.orangeBackground {
+    background-color: #f7630c;
+}
+
+.watchTime {
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+.soundLogo {
+    position: fixed;
+    width: 20px;
+    margin-top: 40px;
+    margin-left: 70px;
+    cursor: pointer;
+}

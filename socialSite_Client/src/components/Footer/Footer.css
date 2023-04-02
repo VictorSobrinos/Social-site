@@ -1,0 +1,30 @@
+.footer {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 60px;
+    padding: 5px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    border-top: 1px solid white;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.footer img {
+    margin-bottom: 5px;
+    margin-left: 5px;
+    width: 30px;
+
+}

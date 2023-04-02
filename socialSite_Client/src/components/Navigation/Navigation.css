@@ -1,0 +1,30 @@
+.main-nav {
+    background-color: black;
+    border-bottom: 1px solid white;
+}
+
+a {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.navColor {
+    color: white;
+}
+
+.logout {
+    cursor: pointer;
+}
+
+.navLogo {
+    width: 35px;
+    border-radius: 50%;
+    position: fixed;
+    margin-right: 20px;
+    right: 0;
+}
+
+.main-nav .kataRushNav {
+    color: #f7630c;
+}
